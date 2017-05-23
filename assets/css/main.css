@@ -1,8 +1,183 @@
 /*
 Colors: 
-#E54E79;
-#E56385;
-#00B2A9;
-#75726C;
-#EDE9E2
+#E54E79; rosa
+#E56385; rosa claro
+#00B2A9; celeste
+#75726C; gris
+#EDE9E2 gris claro
 */
+
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*logo de la marca en la barra */
+.logo {
+	background: url(../img/logo-white.png);
+	float: left;
+	height: 55px;
+	width: 90px;
+	background-size: 100%;
+	margin-top: 6px;
+	display: inline-block;
+}
+
+/*barra selecciones*/
+
+nav{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+	padding: 0 140px;
+}
+
+ul li{
+	display: inline-block;
+	float: right;
+}
+
+ul li a{
+	display: inline-block;
+	color: #e0dede;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #E56385;
+	color: #8e8d8d;
+}
+
+/*Foto fija*/
+.imagen-principal {
+	background: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg) 50% 50% / 100% no-repeat fixed;
+	background-size:cover;
+	margin: 0;
+	height: 630px;
+    text-align: center;
+}
+
+.caja-principal{
+	background-color: #EDE9E2;
+	width: 430px;
+	height: 340px;
+	position: absolute;
+	top: 170px;
+	right: 0;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+/*Interior caja principal */
+.caja-blanca h1{
+	text-transform: uppercase;
+	color: #00B2A9;
+}
+
+.sign-up{
+	text-transform: uppercase;
+	color: #75726C;
+} 
+
+.input-number{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+.input-number:focus{
+	outline: 0;
+}
+
+.btn-driver{
+	display: block;
+	text-decoration: none;
+	border: none;
+	background-color: #E54E79;
+	color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 13px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*seleccion auto andando */
+.play{
+	background-color: #00B2A9;
+	
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.play h1{
+	background-color: #EDE9E2;
+	color: #75726C;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 0 0 60px 0;
+	padding: 18px 0;
+}
+
+.caja-andar{
+	background-color: #EDE9E2;
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.x-coor, .y-coor {
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+.x-coor:focus, .y-coor:focus{
+	outline: 0;
+}
+
+.btn-andar{
+	margin: 20px auto;
+	display: block;
+	text-decoration: none;
+	border: none;
+	background-color: #00B2A9;
+	color: whitesmoke;
+	width: 95%;
+	padding: 20px 20px;
+	border-radius: 13px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*RECUERDA puntos extra en  Footer*/
+footer{
+	background-color: #75726C;
+	width: 100%;
+	height: 100px;
+}
+
+footer p{
+	color: whitesmoke;
+	margin: 0;
+}
