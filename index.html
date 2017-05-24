@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<!-- barra selecciones, puntos extra posiciones con notificacion-->
-<header>
+	<!-- barra selecciones, puntos extra posiciones con notificacion-->
+	<header>
 		<div>
 			<nav>
 				<ul >
@@ -23,22 +23,22 @@
 		</div>
 	</header>
 
-<!-- Seccion imagen principal-->
-<!-- comprueba el estado y aprende mas tacharlos-->
+	<!-- Seccion imagen principal-->
+	<!-- comprueba el estado y aprende mas tacharlos-->
 
-<section class="imagen-principal">
+	<section class="imagen-principal">
 		<div class="caja-principal">
 			<div class="caja-blanca">
-<h1>Convierte Kilometros en dinero</h1>
+				<h1>Convierte Kilometros en dinero</h1>
 				<p class="sign-up">INSCRÍBETE PARA CONDUCIR CON LYFT.</p>
-				<input class="input-number" type="text" placeholder="Numero de telefono">
-				<button class="btn-driver">Hazte conductor <i class="fa fa-heart fa-x3" aria-hidden="true"></i></button>
+				<input class="input-number" type="text" placeholder="Numero de telefono" id="driverNumber" value="" tabindex="1">
+				<button class="btn-driver" id="driverBtn">Hazte conductor <i class="fa fa-heart fa-x3" aria-hidden="true"></i></button>
 				<p>Ya te inscribiste? Comprueba el estado de tu solicitud <a href="hola.html">aquí</a>.<br>Gana dinero invitarndo a amigos a conducir. <a href="hola.html">Leer más</a>.</p>
 			</div>
 		</div>
 	</section>
 
-<!-- seleccion auto andando -->
+	<!-- seleccion auto andando -->
 	<section>
 		<div class="play">
 			<h1>maneja con lyft</h1>
@@ -47,7 +47,7 @@
 				<input type="text" class="x-coor" placeholder="X coordenada">
 				<i class="fa fa-car fa-2x" aria-hidden="true"></i>
 				<input type="text" class="y-coor" placeholder="Y coordenada">
-				<button class="btn-andar">VAMONOS!</button>
+				<button class="btn-andar" id="vamonos">VAMONOS!</button>
 				<canvas width="300" height="300" id="btn-andar"></canvas>
 
 
@@ -56,12 +56,18 @@
 		</div>
 	</section>
 
-<!-- puntos extra footer con valor, informacion, personalizacion, incluir redes sociales e iconos-->
+	<!-- puntos extra footer con valor, informacion, personalizacion, incluir redes sociales e iconos-->
 	
 	<footer >
-	
+
 		<p>Elaborado por Alejandra morales By Laboratoria Chile <i class="fa fa-github fa-x2" aria-hidden="true"></i>
-</p>
+			<ul>
+				<li><a href="https://www.facebook.com/lyft/" title="Link1"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+				<li><a href="https://twitter.com/asklyft" title="Link2"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+				<li><a href="https://plus.google.com/+lyft" title="Link3"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a></li>
+				<li><a href="https://www.instagram.com/lyft/" title="Link4"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+			</ul>
+		</p>
 	</footer>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/flechas.js"></script>

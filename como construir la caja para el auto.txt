@@ -1,0 +1,23 @@
+cuadrado de auto
+
+cuadrado 300x300
+punto central la mitad del cuadrado
+pensar cuantos pixeles se movera la raya 
+flecha hacia arriba resta -y 38
+flecha derecha suma +x 39
+flecha hacia abajo suma +y 40
+flecha izq resta -x 37
+
+problemas a resolver
+
+1 como detectamos las flechas del teclado (las personas)
+2 cual es el evento y como se llama
+3 como dibujar las lineas
+4 recordar el ultimo punto de la raya para trasar la raya, recordar el punto anterior 
+
+js
+practica interna variable que no cambia con el tiempo es ponerla en mayuscula
+
+
+
+

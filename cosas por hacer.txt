@@ -1,0 +1,56 @@
+buenas practicas
+puntualidad
+orden del codigo y limpieza
+
+docs esta la imagen que se debe replicar
+
+si uso floats, hay que limpiarlos
+
+recordar que el display: online-block, deja espacio horizontal entre los elementos
+
+recordar la diferencia entre position absolute, telative y fixed
+
+los eventos deben ser creados con addEventListener( el usar onclick, directamente en html sera penalizado)
+
+entre mas pixel perfect este en el ejercicio, mejor puntaje
+------------------------------------------------------------
+tengo que crear:
+inspiracion en lyft
+secciones como:
+nav
+header (registro)
+play with lytf
+footer
+-----------------------------
+
+el nav es fijo y debe seguir al scroll del usuario
+se debe crear una clase llamada auto que posea atributo "posicion_x" y un atributo "posicion-y" con 4 metodos:
+* avanzar
+*ir_izquierda
+*ir_derecha
+*retroceder
+ en cada metodo debe sumar o restar 1 de posicion(x/y)
+dependiendo de la direccion
+*se debe crear un tablero para nuestro auto tiene que ser un arreglo de 10x6
+* en la seccion play with lyft debes agregar dos campos que soliciten al usuario las coordenadas (x,y) de la ubicacion inicial del auto.
+( se debe validar que dichas coordenadas no sean mayores al tamaño del trablero 10x6)
+
+al hacer clic en el boton star el formulario debe desaparecer, y en su lugar debe dibujarse un tablero con el auto en la posicion inicial ingresada por el usuario.
+-----------------------------------
+*tip: evento keydown*
+
+al mostrar el tablero con el auto en la posicion inicial, el usuario debe ser capaz de mover la posicion del auto a traves del tablero haciendo uso de las teclas. 
+--------------------------------------
+
+
+ver videooooo varias veces!!!
+la posicion actual esta indicada por la imagen del auto, y a medida que se va desplazando por el trablero deja un indicador de que esa posicion fue visitada. en main.css estan los colores que hay que usar.
+
+----------------------------
+puntos extra:
+formulario de validacion en el registro
+todas las posiciones del tablero con alguna notificacion
+footer con valor, informacion, personalizacion, incluir redes sociales e iconos
+
+
+
