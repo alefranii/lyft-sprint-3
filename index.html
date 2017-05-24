@@ -31,8 +31,13 @@
 			<div class="caja-blanca">
 				<h1>Convierte Kilometros en dinero</h1>
 				<p class="sign-up">INSCRÍBETE PARA CONDUCIR CON LYFT.</p>
-				<input class="input-number" type="text" placeholder="Numero de telefono" id="driverNumber" value="" tabindex="1">
-				<button class="btn-driver" id="driverBtn">Hazte conductor <i class="fa fa-heart fa-x3" aria-hidden="true"></i></button>
+				
+				<div class="driver-number">
+					<input type="number" name="driver-number" id="driverNumber" value="" placeholder="Phone Number" tabindex="1" />
+				</div>
+
+				<div>
+				<button class="btn" id="driverBtn" tabindex="2">Hazte conductor <i class="fa fa-heart fa-x3" aria-hidden="true"></i></button>
 				<p>Ya te inscribiste? Comprueba el estado de tu solicitud <a href="hola.html">aquí</a>.<br>Gana dinero invitarndo a amigos a conducir. <a href="hola.html">Leer más</a>.</p>
 			</div>
 		</div>
@@ -47,8 +52,10 @@
 				<input type="text" class="x-coor" placeholder="X coordenada">
 				<i class="fa fa-car fa-2x" aria-hidden="true"></i>
 				<input type="text" class="y-coor" placeholder="Y coordenada">
+				<a href="flechas/eventos.html">
 				<button class="btn-andar" id="vamonos">VAMONOS!</button>
-				<canvas width="300" height="300" id="btn-andar"></canvas>
+				</a>
+
 
 
 
@@ -60,7 +67,7 @@
 	
 	<footer >
 
-		<p>Elaborado por Alejandra morales By Laboratoria Chile <i class="fa fa-github fa-x2" aria-hidden="true"></i>
+		<p>Elaborado por <a href="https://github.com/alefranii/lyft-sprint-3">Alejandra Morales </a>By Laboratoria Chile <i class="fa fa-github fa-x2" aria-hidden="true"></i>
 			<ul>
 				<li><a href="https://www.facebook.com/lyft/" title="Link1"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
 				<li><a href="https://twitter.com/asklyft" title="Link2"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>

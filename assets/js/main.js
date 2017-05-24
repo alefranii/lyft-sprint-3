@@ -1,10 +1,9 @@
  //validacion de boton hazte conductor
 
  function validateForm() {
-    document.getElementById("driverBtn").addEventListener("click", function(){
-     console.log('input-number: ' + document.getElementById('input-number').value)
-   console.log('input-number: ' + document.getElementById('input-number').value);
-      if (document.getElementById('input-number').value != "") {
+  document.getElementById("driverBtn").addEventListener("click", function(){
+  console.log('Driver number: ' + document.getElementById('driverNumber').value);
+    if (document.getElementById('driverNumber').value != "") {
      alert('le enviamos un mensaje a su celular con las intrucciones')
    } else {
      alert('inserte numero valido')
@@ -17,7 +16,6 @@
    };
    event.preventDefault();
   }
-
 
 
 //validacion boton "vamonos" el formulario debe desaparecer, y en su lugar debe dibujarse un tablero con el auto en la posicion inicial ingresada por el usuario.

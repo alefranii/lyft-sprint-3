@@ -90,7 +90,7 @@ li a:hover{
 	color: #75726C;
 } 
 
-.input-number{
+.driver-number{
 	display: block;
 	width: 100%;
 	padding: 10px;
@@ -99,11 +99,20 @@ li a:hover{
 	margin-bottom: 10px;
 	background-color: transparent;
 }
-.input-number:focus{
+input{
+	border: none;
+	width: 85%;
+	line-height: 130%;
+	background: none;
+display: inline-block;
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.driver-number:focus{
 	outline: 0;
 }
 
-.btn-driver{
+.btn{
 	display: block;
 	text-decoration: none;
 	border: none;
@@ -113,6 +122,7 @@ li a:hover{
 	border-radius: 13px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 
 /*seleccion auto andando */
 .play{
