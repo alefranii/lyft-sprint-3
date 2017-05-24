@@ -41,9 +41,6 @@ al hacer clic en el boton star el formulario debe desaparecer, y en su lugar deb
 
 al mostrar el tablero con el auto en la posicion inicial, el usuario debe ser capaz de mover la posicion del auto a traves del tablero haciendo uso de las teclas. 
 --------------------------------------
-
-
-ver videooooo varias veces!!!
 la posicion actual esta indicada por la imagen del auto, y a medida que se va desplazando por el trablero deja un indicador de que esa posicion fue visitada. en main.css estan los colores que hay que usar.
 
 ----------------------------
