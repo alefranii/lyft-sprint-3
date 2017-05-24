@@ -59,7 +59,7 @@ function movimientoAuto(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 {
 	lienzo.beginPath();
 	lienzo.strokeStyle = color;
-    lienzo.lineWidth = 10; //ancho de la linea igual a imagen del auto
+    lienzo.lineWidth = 70; //ancho de la linea igual a imagen del auto
     lienzo.moveTo(xinicial, yinicial);
     lienzo.lineTo(xfinal, yfinal);
     lienzo.stroke();

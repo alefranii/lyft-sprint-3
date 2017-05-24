@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*barra selecciones*/
+
+nav{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+	padding: 0 140px;
+}
+
+ul li{
+	display: inline-block;
+	float: right;
+}
+
+ul li a{
+	display: inline-block;
+	color: #e0dede;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #E56385;
+	color: #8e8d8d;
+}
+
+
+
+/*seleccion auto andando */
+.play{
+	background-color: #00B2A9;
+	
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.play h1{
+	background-color: #EDE9E2;
+	color: #75726C;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 0 0 60px 0;
+	padding: 18px 0;
+}
+
+.caja-andar{ /* caja que contiene el auto */
+	background-color: #75726C; /* color fondo */
+	width: 800px; /* ancho */
+	height: 500px; /* alto */
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.canvas{ /* falta mejorar que la caja tenga limite*/
+
+	width: 700px; /* ancho */
+	height: 400px; /* alto */
+	margin: 0 auto; /* */
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.area_de_dibujo{ /* que la caja tenga limite */
+background: url(../assets/img/car.img);
+
+}
+
+
+/*RECUERDA puntos extra en  Footer*/
+footer{
+	background-color: #75726C;
+	width: 100%;
+	height: 100px;
+}
+
+footer p{
+	color: whitesmoke;
+	margin: 0;
+}
